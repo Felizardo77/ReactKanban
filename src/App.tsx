@@ -1,5 +1,6 @@
 import { Heading, Box, Flex } from "@radix-ui/themes";
 import { CreateTaskForm } from "./components/CreateTaskForm";
+import {TaskBoard} from './components/TaskBoard'
 export default function App() {
   return (
     <Box maxWidth="80rem" mx="auto">
@@ -14,6 +15,7 @@ export default function App() {
 
       <Box>
         <Heading as="h2">Quadro de tarefas</Heading>
+        <TaskBoard />
       </Box>
     </Box>
   );
